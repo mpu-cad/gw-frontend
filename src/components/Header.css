@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+header{
+    position: relative;
+    height: 120px;
+    width: auto;
+    background-color: #ffffff;
+    box-shadow: #000000 0px 0px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btnForum{
+    height: 66px;
+    width: 266px;
+    margin: 40px;
+    border: #FF3366 solid 3px;
+    background-color: white;
+    color: #FF3366;
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    cursor: pointer;
+}
+.btnForum:hover{
+    background-color: #FF3366;
+    height: 72px;
+    width: 278px;
+    color: white;
+    transition: 0.5s;
+    box-shadow: #FF3366 0px 0px 5px;
+}
+
+.btnReg{
+    height: 66px;
+    width: 266px;
+    margin: 40px;
+    background-color: #6666FF;
+    color: white;
+    font-family: 'Rubik';
+    border: 0px;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    cursor: pointer;
+}
+.btnReg:hover{
+    height: 72px;
+    width: 278px;
+    background-color: #8585ff;
+    transition: 0.5s;
+    box-shadow: #6666FF 0px 0px 5px;
+}

@@ -1,0 +1,39 @@
+.acceptioncard{
+    height: 440px;
+    width: 600px;
+    border-radius: 40px;
+    background-color: white;
+    font-family: 'Rubik';
+    font-size: 24px;
+}
+.codeInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border: #000000 solid 3px;
+    font-size: 36px;
+    margin: 10px;
+    height: 40px;
+    width: 40px;
+}
+.btnSubmission{
+    height: 60px;
+    width: 240px;
+    margin: 20px;
+    border-radius: 36px;
+    border: 0px;
+    color: white;
+    background-color: #FF3366;
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    cursor: pointer;
+}
+input:invalid {
+    border: #FF3366 solid 2px;
+  }
+  input{
+    text-transform: capitalize;  
+  }
