@@ -11,11 +11,22 @@
     justify-content: center;
     align-items: center;
     padding: 5px;
-    border: #000000 solid 3px;
-    font-size: 36px;
-    margin: 10px;
+    margin-top: 20px;
+    /* border-style: solid;
+    border-width: 3px;
+    border-color: #000000; */
+    outline: none;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    font-size: 32px;
     height: 40px;
-    width: 40px;
+    width: 30px;
+    text-transform:"uppercase";
+    text-align: center;
+}
+.codeInput:focus{
+    border-color: #6666FF;
+    outline: #6666FF ;
 }
 .btnSubmission{
     height: 60px;
@@ -24,16 +35,10 @@
     border-radius: 36px;
     border: 0px;
     color: white;
-    background-color: #FF3366;
+    background-color: #6666FF;
     font-family: 'Rubik';
     font-weight: 300;
     font-style: normal;
     font-size: 24px;
     cursor: pointer;
 }
-input:invalid {
-    border: #FF3366 solid 2px;
-  }
-  input{
-    text-transform: capitalize;  
-  }

@@ -1,5 +1,7 @@
 import "./Home.css"
 import Header from "../components/Header";
+import AcceptReg from "../components/AcceptReg.tsx";
+
 const Home = () => {
     return(
         <div style={{display: "flex", flexDirection: "column", justifyContent:"start"}}>
@@ -12,7 +14,9 @@ const Home = () => {
                     <h2>
                         центра САПР разработки
                     </h2>
+                    <AcceptReg/>
                 </div>
+
             </section>
         </div>
     )
