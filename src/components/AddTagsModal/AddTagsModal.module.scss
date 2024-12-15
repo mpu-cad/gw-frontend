@@ -1,0 +1,44 @@
+.window {
+  background-color: white;
+  border-radius: 30px;
+  padding: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tags {
+  padding: 5px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 20%;
+  z-index: 1;
+}
+
+.input {
+  width: 300px;
+  margin: 20px 0;
+}
+
+.text {
+  font-weight: 700;
+}

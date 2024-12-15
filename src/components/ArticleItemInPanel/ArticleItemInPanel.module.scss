@@ -1,0 +1,18 @@
+.container {
+  padding: 8px;
+
+  font-size: 14px;
+  font-weight: normal;
+  border-left: 4px solid var(--blue-color);
+  text-align: start;
+
+  cursor: pointer;
+}
+
+.container:hover {
+  color: var(--violet-color)
+}
+
+.chosen {
+  font-weight: bold;
+}

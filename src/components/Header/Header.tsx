@@ -1,14 +1,15 @@
-import "./Header.css"
-import logo from "../images/LEARNIO.svg"
+import "./Header.scss"
+import logo from "../../images/LEARNIO.svg"
+import {Link} from "react-router";
 
 
 const Header = () => {
     return(
            <header>
-            <div style={{paddingLeft: "60px"}}>
-                <a href="#" >
+            <div>
+                <Link to="/" >
                 <img src={logo} alt="logo" className="logo" />
-                </a>
+                </Link>
             </div>
              <div>
                 <button className="btnForum">Форум</button>

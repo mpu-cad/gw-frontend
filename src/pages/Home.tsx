@@ -1,20 +1,14 @@
-import "./Home.css"
-import Header from "../components/Header";
+import s from "./Home/Home.module.scss"
+
 const Home = () => {
-    return(
-        <div style={{display: "flex", flexDirection: "column", justifyContent:"start"}}>
-            <div>
-                <Header/>
-            </div>
-            <section className="bgimage">
-                <div style={{display: "flex", flexDirection: "column", justifyContent: "flex-start", alignItems: "center"}}>
-                    <h1>База знаний</h1>
-                    <h2>
-                        центра САПР разработки
-                    </h2>
-                </div>
-            </section>
+    return (
+        <div className={s.container}>
+            <h1>База знаний</h1>
+            <h2>
+                центра САПР разработки
+            </h2>
         </div>
+
     )
 }
 export default Home

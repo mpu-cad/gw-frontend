@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-shrink: 0;
+  padding: 20px;
+  border-bottom: 1px solid var(--background-color);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+}
+
+.edit {
+  padding: 15px;
+  border-left: 4px solid var(--blue-color);
+  border-bottom: 0;
+  cursor: pointer;
+}

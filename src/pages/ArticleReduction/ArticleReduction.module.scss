@@ -1,0 +1,33 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+.article_title {
+  width: 40%;
+}
+
+
+.tag {
+  color: var(--pink-color);
+  padding: 8px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.text {
+  font-size: 16px;
+}
+
+
+.add_tag {
+  color: var(--blue-color);
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}

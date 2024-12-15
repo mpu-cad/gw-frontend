@@ -1,6 +1,31 @@
 :root {
-  background-color: #f0f0f0;
+    background-color: var(--background-color);
+    color: var(--black-color);
+
+    --pink-color: #FF3366;
+    --purple-color: #9999CC;
+    --blue-color: #6666FF;
+    --black-color: #040404;
+    --violet-color: #333366;
+    --background-color: #f0f0f0;
+
 }
+
 body {
-  margin: 0px;
+    margin: 0px;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    margin: 5px;
+    font-family: 'Dela Gothic One';
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h2 {
+    margin: 5px;
+    font-family: 'Rubik';
+    font-size: 24px;
+    font-weight: 400;
 }

@@ -1,0 +1,20 @@
+.tag {
+  color: var(--pink-color);
+  padding: 8px;
+  background-color: var(--background-color);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.minus {
+  color: var(--pink-color);
+  background-color: transparent;
+  border: 1px solid var(--pink-color);
+}
+
+.plus {
+  color: var(--blue-color);
+  background-color: transparent;
+  border: 1px solid var(--blue-color);
+}
